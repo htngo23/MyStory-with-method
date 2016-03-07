@@ -58,4 +58,46 @@ public class leer {
 		}
 
 	}
+
+	public static void Korea() {
+		read = new Scanner(System.in);
+		String todo;
+		System.out.println("Nightlife? Historical? Eat?");
+		todo = read.next();
+		switch (todo) {
+		case "Nightlife":
+			System.out.println("Go drink Soju in Hongdae");
+			break;
+		case "Historical":
+			System.out.print("Visit the Northern Palace");
+			break;
+		case "Eat":
+			System.out.println("Korean BBQ is a must!");
+			break;
+		default:
+			System.out.println("Let me know how that goes!");
+			break;
+		}
+	}
+
+	public static void Brazil(){
+		read = new Scanner(System.in);
+		String todo;
+		System.out.println("Nightlife? Historical? Eat?");
+		todo = read.next();
+		switch (todo) {
+		case "Nightlife":
+			System.out.println("Drinks on the beach!");
+			break;
+		case "Historical":
+			System.out.print("Don't know much, but their soccer team is amazing");
+			break;
+		case "Eat":
+			System.out.println("Their cinnamon pinapple is to die for!");
+			break;
+		default:
+			System.out.println("Let me know how that goes!");
+			break;
+	}
+}
 }

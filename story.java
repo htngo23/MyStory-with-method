@@ -63,8 +63,10 @@ public class story {
 				vacation = read.next();
 				if (vacation.equalsIgnoreCase("Korea")) {
 					System.out.println("They have awesome internet!  Just don't go too far north!");
+					leer.Korea();
 				} else if (vacation.equalsIgnoreCase("Brazil")) {
 					System.out.println("Good choice, beautiful place to go");
+					leer.Brazil();
 				}
 				break;
 			default:
